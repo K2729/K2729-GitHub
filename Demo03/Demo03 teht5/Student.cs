@@ -11,6 +11,7 @@ namespace Demo03_teht5
         public string Name { get; set; }
         public int Age { get; set; }
         public string Address { get; set; }
+        
 
         public void PrintData()
         {
@@ -19,5 +20,6 @@ namespace Demo03_teht5
             Console.WriteLine("Osoite : " + Address);
 
         }
+        
         }
 }
