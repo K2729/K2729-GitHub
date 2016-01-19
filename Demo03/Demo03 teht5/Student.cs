@@ -12,5 +12,12 @@ namespace Demo03_teht5
         public int Age { get; set; }
         public string Address { get; set; }
 
-    }
+        public void PrintData()
+        {
+            Console.WriteLine("Nimi : " + Name);
+            Console.WriteLine("Ikä : " + Age);
+            Console.WriteLine("Osoite : " + Address);
+
+        }
+        }
 }
