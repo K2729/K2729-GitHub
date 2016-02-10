@@ -40,11 +40,19 @@ namespace Teht_0
         {
             Debug.WriteLine("Name is " + nameTextBox.Text);
             Debug.WriteLine("Email is " + emailBox.Text);
+            Debug.WriteLine("Password is " + passwordBox);
 
             if ((bool) normalUserCheckBox.IsChecked)
             {
                 Debug.WriteLine("Normal user!");
             }
+            if ((bool) adminCheckBox.IsChecked)
+            {
+                Debug.WriteLine("Admin user!");
+            }
+          
+            
+
         }
     }
 }
